@@ -2,7 +2,11 @@
 
 
 ### Filesystem set up
-- commands.js handles the logic for various user commands
+- commands contains various commands the bot will respond to
+  - play.js
+  - pause.js
+  - queue.js 
+  - add.js adds a song to the queue
 - bot.js (name in progress) is the main driver for the bot
 - media.js handles ffmpeg and other media related logic
 - connect.js ?
