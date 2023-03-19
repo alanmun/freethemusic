@@ -2,8 +2,9 @@
   "name": "discord-music-bot",
   "version": "1.0.0",
   "description": "free the music",
-  "main": "bot.js",
+  "main": "Main.js",
   "scripts": {
+    "start": "tsc && node ./dist/Main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alan Munirji",
@@ -13,6 +14,9 @@
     "ffmpeg": "^0.0.4"
   },
   "devDependencies": {
-    "eslint": "^8.36.0"
+    "discord-api-types": "^0.37.36",
+    "eslint": "^8.36.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2"
   }
 }
