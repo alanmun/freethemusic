@@ -2,7 +2,7 @@
   "name": "discord-music-bot",
   "version": "1.0.0",
   "description": "free the music",
-  "main": "bot.js",
+  "main": "beebo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

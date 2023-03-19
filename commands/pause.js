@@ -1,0 +1,1 @@
+//pause - Pause a song, stopping playback.
